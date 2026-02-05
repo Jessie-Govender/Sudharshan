@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday ❤️</title>
+  <style>
+    body {
+      background-color: #0d1117;
+      color: #c9d1d9;
+      font-family: monospace;
+      padding: 30px;
+    }
+    .terminal {
+      max-width: 800px;
+      margin: auto;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 20px rgba(0,255,150,0.2);
+    }
+    .green {
+      color: #7ee787;
+    }
+    .pink {
+      color: #ff7b72;
+    }
+    .cursor {
+      animation: blink 1s infinite;
+    }
+    @keyframes blink {
+      0%, 50%, 100% { opacity: 1; }
+      25%, 75% { opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="terminal">
+  <p class="green">$ run birthday.exe</p>
+  <p>Loading message...</p>
+  <br>
+
+  <p>
+    <span class="pink">function</span> birthdayMessage() {
+  </p>
+
+  <p>
+    &nbsp;&nbsp;const person = <span class="green">"my favorite human"</span>;
+  </p>
+
+  <p>
+    &nbsp;&nbsp;const reason = <span class="green">
+    "you make my life better in ways no algorithm could predict"
+    </span>;
+  </p>
+
+  <p>
+    &nbsp;&nbsp;return <span class="green">
+    `Happy Birthday ❤️
+    <br><br>
+    You’re smart, kind, annoying in the best way,
+    and somehow still my favorite bug in the system.
+    <br><br>
+    I hope this year brings you clean code,
+    solved problems,
+    and me right next to you for all of it.
+    `
+    </span>;
+  </p>
+
+  <p>}</p>
+
+  <br>
+  <p class="green">> Output:</p>
+  <p class="pink">
+    Happy Birthday ❤️<span class="cursor">|</span>
+  </p>
+</div>
+
+</body>
+</html>
